@@ -1,0 +1,39 @@
+O que é um bom código?
+
+Um bom código é um código ESCALÁVEL e LEGÍVEL.
+
+O Big O nos ajuda a entender o aspecto de escalabilidade do código.
+Saber quanto tempo um código leva para executar, quanta memória ele utiliza, é um aspecto importante, pois pode nos ajudar a economizar dinheiro.
+Big O é usado para descrever o quão eficiente é o seu código.
+
+Podemos utilizá-lo para medir a complexidade de TEMPO (velocidade de execução) e de ESPAÇO (memória utilizada).
+
+Sempre devemos olhar para o pior cenário possível, e é isso que a notação Big O faz.
+
+Porém, mesmo sabendo disso, otimização prematura pode ser algo muito ruim, pois pode prejudicar a legibilidade do código.
+É necessário encontrar o equilíbrio entre tempo, espaço e também legibilidade.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Anotações Big o
+O(n)
+Tem um aumento LINEAR conforme o número de elementos cresce.
+Conforme nosso array aumenta, o nosso número de operações aumenta da mesma forma.
+Loops que percorrem todo o array ou parte dela. 
+Notação mais comum.
+
+O(1)
+Não importa quantos elementos temos na lista, o número de operações não muda.
+Tem ótimo desempenho e é bastante escalável.
+Função sem loops.
+
+O(n^2)
+Tem um aumento QUADRÁTICO das operações.
+Sempre que nosso array aumenta, o tempo de execução aumenta de forma quadrática.
+Por exemplo, se adicionarmos 3 elementos no array, teremos 9 operações a mais.
+Tem desempenho ruim.
+Função com loops alinhados.
+
+O(n!)
+Muito ruim.
+Para cada novo elemento, adicionamos um novo loop alinhado na função.

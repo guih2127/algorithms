@@ -1,0 +1,36 @@
+Big O Clean Sheet:
+
+-----------
+
+
+-Big Os-
+O(1) Constant - NO LOOPS
+O(n) Linear -> FOR LOOPS/WHILE LOOPS
+O(n^2) Quadratic -> TWO NESTED LOOPS -> Every element in a collection needs to be compared to ever other element
+
+O(log N)
+O(2^2)
+O(n!) Factorial -> Adding a loop for every new element.
+
+Iterating through half a collection is still O(n), because O(n/2) still is O(n).
+Two separate collection should have 2 different variables in Big O notations.
+
+- What cause time in a function? - 
+Operations (+, -, *, /)
+Comparisons (<, >, ==)
+Looping (for, while)
+Outside Function call (function())
+
+- What causes space complexity? -
+variables
+Data Structures
+Function call
+Allocations
+
+- Rule Book -
+Rule 1: Always worst cause
+Rule 2: Remove constants
+Rule 3: Different inputs should have different variables. O(a+b). A and B arrays nested would be O(a*b).
+                + for steps in order
+                * for nested steps
+Rule 3: Drop non dominant terms
