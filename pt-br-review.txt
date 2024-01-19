@@ -37,3 +37,11 @@ Função com loops alinhados.
 O(n!)
 Muito ruim.
 Para cada novo elemento, adicionamos um novo loop alinhado na função.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Quais skills um entrevistador procura?
+Analíticas - Como você pensa no problema e analisa as coisas
+Coding - Escrita limpa, simples, organizada e legível
+Conhecimento técnico - Fundamentos do job que está aplicando
+Comunicação - Se a personalidade bate com a cultura da empresa
