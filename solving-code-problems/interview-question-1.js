@@ -36,6 +36,10 @@ function hasAnyCommonItems(array1, array2) {
 // já podemos ver que vamos ter uma performance melhor que a primeira solução, já que serão dois loops que não estão alinhados
 // dessa forma, teremos uma função O(a + b)
 // é importante mostrar o nosso processo de pensamento para o entrevistador
+
+// O(a + b) Time complexity
+// O(a) Space Complexity -> Essa solução, embora seja melhor com relação a time complexity,
+// tem uma space complexity pior, já que atribuimos um array à um objeto.
 function hasAnyCommonItemsGood(array1, array2) {
     let map = {};
     for (let i = 0; i < array1.length; i++) {
